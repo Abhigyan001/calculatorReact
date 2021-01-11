@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+![Hireable](https://img.shields.io/badge/Hireable-yes-success) ![](https://img.shields.io/badge/Mobile--responsive-yes-green) ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React calculator.
 
-## Available Scripts
+In this project, a calculator is built using the React.js library.
 
-In the project directory, you can run:
+## This web app is live, you can check it here: [Live demo](https://reactcalculatormicroverse.herokuapp.com/)
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Built With
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- React.js
+- create-react-app
+- Bootstrap
 
-### `yarn test`
+## Prerequisities
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get this project up and running locally, you must have [node](https://nodejs.org/en/)  and [yarn](https://yarnpkg.com/) installed locally.
 
-### `yarn build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**To get this project set up on your local machine, follow these simple steps:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Step 1**<br>
+Navigate through the local folder where you want to clone the repository and run<br>
+`git@github.com:Abhigyan001/calculatorReact.git`. It will clone the repo to your local folder.<br>
+or with https<br>
+`https://github.com/Abhigyan001/calculatorReact.git`.<br>
+**Step 2**<br>
+Run `cd calculatorReact`<br>
+**Step 3**<br>
+Run `npm install` to install the npm packages from the `package.json` file.<br>
+**Step 4**<br>
+Run `npm start` to start the webpack server, you can now navigate to `http://localhost:3000` to view the app. The server refreshes the app every time you make a change to a file used by it.<br>
+**Step 5**<br>
+Most important, enjoy the app!<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Author
 
-### `yarn eject`
+👤 **Abhigyan Mahanta**
+​
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Github: [@githubhandle](https://github.com/Abhigyan001)
+   
+- Linkedin: [Linkedin Profile](https://www.linkedin.com/in/abhigyan001/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Twitter: [@Twitter](https://twitter.com/abhigyan_001)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🤝 Contributing
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Our favourite contributions are those that help us improve the project, whether with a contribution, an issue, or a feature request!
 
-## Learn More
+## Show your support
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you've read this far....give us a ⭐️!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📝 License
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed by Microverse and the Odin Project
