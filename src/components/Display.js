@@ -2,10 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Display = ({ result }) => (
-  <div id="display">
-    <div className="row">
-      <p className="result">{result}</p>
-    </div>
+  <div id="display">    
+    <p className="result">{result}</p>    
   </div>
 );
 
