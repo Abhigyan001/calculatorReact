@@ -9,7 +9,7 @@ In this project, a calculator is built using the React.js library.
 
 ## Built With
 
-- React.js
+- React
 - create-react-app
 - Bootstrap
 
