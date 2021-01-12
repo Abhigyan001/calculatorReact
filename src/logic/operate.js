@@ -6,24 +6,29 @@ const operate = (numberOne, numberTwo, operation) => {
     const one = Big(+numberOne);
     const two = Big(+numberTwo);
 
-    if (operation === '+') {
-      result = Big(one.plus(two));
-    }
+    switch (operation) {
+      case '+':
+        result = n1.plus(n2);
+        break;
 
-    if (operation === '-') {
-      result = Big(one.minus(two));
-    }
+      case '-':
+        result = n1.minus(n2);
+        break;
 
-    if (operation === 'X') {
-      result = Big(one.times(two));
-    }
+      case '×':
+        result = n1.times(n2);
+        break;
 
-    if (operation === '÷') {
-      result = Big(one.div(two));
-    }
+      case '÷':
+        result = n1.div(n2);
+        break;
 
-    if (operation === '%') {
-      result = Big(one.div(two));
+      case '%':
+        result = n1.mod(n2);
+        break;
+
+      default:
+        break;
     }
   } catch (error) {
     result = NaN;
