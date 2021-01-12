@@ -21,6 +21,30 @@ class App extends Component {
     this.setState(newState);
   };
 
+  keyDownListener = e => {
+    let buttonName = e.key;
+    if (buttonName === 'Enter') buttonName = '=';
+    if (buttonName === '/') buttonName = '÷';
+    if (buttonName === '*') buttonName = 'X';
+    const validButton = buttons.some(row => row.includes(buttonName));
+    if (validButton) {
+      this.handleClick(buttonName);
+    }
+  };
+
+  componentDidMount() {
+    document.addEventListener('keydown', this.keyDownListener);
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('keydown', this.keyDownListener);
+  }
+
+  handleClick = buttonName => {
+    const newState = calculate(this.state, buttonName);
+    this.setState(newState);
+  };
+
   render() {
     const { total, next, operation } = this.state;
     return (
