@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 const Display = ({ total, next, operation }) => {
   return (
-    <div>
-      <p>{next || total}</p>
+    <div id="display">
+      <p className="result">{next || total}</p>
       <span>
         {next && (total || null)} {operation || null}
       </span>

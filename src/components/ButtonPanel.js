@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Button from './Button';
+import styles from './styles.css';
 
 const ButtonPanel = ({ buttons, clickHandler }) => {
   const buttonColors = ['+', 'X', '-', '=', '÷'];
   return (
-    <div>
+    <div className={styles.button_panel}>
       {buttons.map((row, i) => (
-        <div key={`row${buttons[i][0]}`}>
+        <div key={`row${buttons[i][0]}`} className={styles.button_panel_row}>
           {row.map(name => {
             const wide = name === '0' ? true : undefined;
             const color = buttonColors.includes(name) ? true : undefined;

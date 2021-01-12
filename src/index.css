@@ -13,9 +13,7 @@ body {
     'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-image: url("./img/background.jpg");
-  background-size: cover;
+  -moz-osx-font-smoothing: grayscale;  
 }
 
 code {
@@ -29,8 +27,7 @@ code {
 }
 
 .result {
-  text-align: right;
-  background-color: white;
+  text-align: right;  
   width: 20%;
 }
 
@@ -41,7 +38,7 @@ code {
 }
 
 #button-panel {
-  margin: -1% 40%;
+  margin: 0% 40%;
   width: 100%;
 }
 

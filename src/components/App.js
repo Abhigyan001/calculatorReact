@@ -40,11 +40,6 @@ class App extends Component {
     document.removeEventListener('keydown', this.keyDownListener);
   }
 
-  handleClick = buttonName => {
-    const newState = calculate(this.state, buttonName);
-    this.setState(newState);
-  };
-
   render() {
     const { total, next, operation } = this.state;
     return (
