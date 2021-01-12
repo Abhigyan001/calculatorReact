@@ -4,7 +4,7 @@ import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import calculate from '../logic/calculate';
 import buttons from '../buttons/buttons';
-import styles from './styles.css';
+import styles from './styles.module.css';
 
 class App extends Component {
   constructor(props) {
@@ -35,6 +35,8 @@ class App extends Component {
     if (buttonName === 'Enter') buttonName = '=';
     if (buttonName === '/') buttonName = '÷';
     if (buttonName === '*') buttonName = 'X';
+    if (buttonName === '-') buttonName = '-';
+    if (buttonName === '+') buttonName = '+';
     const validButton = buttons.some(row => row.includes(buttonName));
     if (validButton) {
       this.handleClick(buttonName);
