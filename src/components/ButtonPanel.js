@@ -1,14 +1,9 @@
 import React from 'react';
 import Button from './Button';
+import buttons from '../buttons/buttons';
 
 const ButtonPanel = () => {
-  const buttons = [
-    ['AC', '+/-', '%', '÷'],
-    ['7', '8', '9', 'X'],
-    ['4', '5', '6', '-'],
-    ['1', '2', '3', '+'],
-    ['0', '.', '='],
-  ];
+  
   return (
     <div id="button-panel">
       {buttons.map((row, i) => (

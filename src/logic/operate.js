@@ -22,11 +22,7 @@ const operate = (numberOne, numberTwo, operation) => {
       case '÷':
         result = n1.div(n2);
         break;
-
-      case '%':
-        result = n1.div(100);
-        break;
-
+        
       default:
         break;
     }
