@@ -21,6 +21,37 @@ const calculate = (data, buttonName) => {
       dataResult.next = operate(next, 100, '%');
     }
   }
+
+  if (buttonName === 'AC') {
+    dataResult.total = '';
+    dataResult.next = '';
+    dataResult.operation = '';
+  }
+
+  if (['+', 'X', '-', '÷', '='].includes(buttonName)) {
+    if (total && next && operation) {
+      const newOperation = buttonName === '=' ? '' : buttonName;
+      dataResult.total = operate(total, next, operation);
+      dataResult.operation = newOperation;
+    }
+
+    if (total && !next) {
+      dataResult.operation = buttonName;
+    }
+  }
+
+  if (buttonName === '.') {
+    if (!total && !next) {
+      dataResult.total = '0.';
+    }
+    if (next && next.indexOf('.') === -1) {
+      dataResult.next = `${next}.`;
+    }
+    if (total && !next && total.indexOf('.') === -1) {
+      dataResult.total = `${total}.`;
+    }
+  }
+
   return dataResult;
 };
 
