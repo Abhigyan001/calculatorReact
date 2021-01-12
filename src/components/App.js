@@ -4,16 +4,25 @@ import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import calculate from '../logic/calculate';
 import buttons from '../buttons/buttons';
+import styles from './styles.css';
 
 class App extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      total: null,
-      next: null,
-      operation: null,
+      total: undefined,
+      next: undefined,
+      operation: undefined,
     };
+  }
+
+  componentDidMount() {
+    document.addEventListener('keydown', this.keyDownListener);
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('keydown', this.keyDownListener);
   }
 
   handleClick = buttonName => {
@@ -30,20 +39,12 @@ class App extends Component {
     if (validButton) {
       this.handleClick(buttonName);
     }
-  };
-
-  componentDidMount() {
-    document.addEventListener('keydown', this.keyDownListener);
-  }
-
-  componentWillUnmount() {
-    document.removeEventListener('keydown', this.keyDownListener);
-  }
+  }; 
 
   render() {
     const { total, next, operation } = this.state;
     return (
-      <div>
+      <div className={styles.app}>
         <Display total={total} next={next} operation={operation} />
         <ButtonPanel data={this.state} buttons={buttons} clickHandler={this.handleClick} />
       </div>

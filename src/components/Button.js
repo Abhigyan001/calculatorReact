@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './styles.css';
 
-const Button = ({ name, clickHandler, wide, color }) => (
+const Button = ({ name, wide, color, clickHandler,}) => (
   <button type="button" 
   className={`${styles.button}
                   ${color ? null : styles.button_gray}

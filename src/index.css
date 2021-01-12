@@ -25,25 +25,3 @@ code {
     'Courier New',
     monospace;
 }
-
-.result {
-  text-align: right;  
-  width: 20%;
-}
-
-#display {
-  margin: 10% 40%;
-  width: 100%;
-  margin-bottom: 0%;
-}
-
-#button-panel {
-  margin: 0% 40%;
-  width: 100%;
-}
-
-.button1 {
-  width: 5%;
-  height: auto;
-  background-color: rgba(241, 245, 7, 0.959);
-}

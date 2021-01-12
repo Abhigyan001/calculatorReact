@@ -3,33 +3,28 @@ import Big from 'big.js';
 const operate = (numberOne, numberTwo, operation) => {
   let result;
   try {
-    const n1 = Big(+numberOne);
-    const n2 = Big(+numberTwo);
+    const one = Big(+numberOne);
+    const two = Big(+numberTwo);
 
-    switch (operation) {
-      case '+':
-        result = n1.plus(n2);
-        break;
+    if (operation === '÷') {
+      result = Big(one.div(two));
+    }
 
-      case '-':
-        result = n1.minus(n2);
-        break;
+    if (operation === '+') {
+      result = Big(one.plus(two));
+    }
 
-      case '×':
-        result = n1.times(n2);
-        break;
+    if (operation === 'X') {
+      result = Big(one.times(two));
+    }
 
-      case '÷':
-        result = n1.div(n2);
-        break;
-        
-      default:
-        break;
+    if (operation === '-') {
+      result = Big(one.minus(two));
     }
   } catch (error) {
     result = NaN;
   }
-  return result.toPrecision();
+  return result.toPrecision().toString();
 };
 
 export default operate;

@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './styles.css';
 
 const Display = ({ total, next, operation }) => {
   return (
-    <div id="display">
+    <div className={styles.display}>
       <p className="result">{next || total}</p>
-      <span>
+      <span className={styles.displaySubtitle}>
         {next && (total || null)} {operation || null}
       </span>
     </div>
