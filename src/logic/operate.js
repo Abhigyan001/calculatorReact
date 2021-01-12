@@ -3,8 +3,8 @@ import Big from 'big.js';
 const operate = (numberOne, numberTwo, operation) => {
   let result;
   try {
-    const one = Big(+numberOne);
-    const two = Big(+numberTwo);
+    const n1 = Big(+numberOne);
+    const n2 = Big(+numberTwo);
 
     switch (operation) {
       case '+':
