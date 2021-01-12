@@ -1,3 +1,5 @@
+import operate from './operate';
+
 const calculate = (data, buttonName) => {
   const { total, next, operation } = data;
   const dataResult = data;
@@ -19,9 +21,6 @@ const calculate = (data, buttonName) => {
       dataResult.next = operate(next, 100, '%');
     }
   }
-
-  
-
   return dataResult;
 };
 
