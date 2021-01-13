@@ -1,18 +1,28 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './styles.module.css';
 
-const Display = ({ result }) => (
-  <div id="display">
-    <p className="result">{result}</p>
+const Display = ({ total, next, operation }) => (
+  <div className={styles.display}>
+    <p>{next || total}</p>
+    <span className={styles.displaySpan}>
+      {next && (total || null)}
+      {' '}
+      {operation || null}
+    </span>
   </div>
 );
 
 Display.defaultProps = {
-  result: '0',
+  total: '0',
+  next: undefined,
+  operation: undefined,
 };
 
 Display.propTypes = {
-  result: PropTypes.string,
+  total: PropTypes.string,
+  operation: PropTypes.string,
+  next: PropTypes.string,
 };
 
 export default Display;

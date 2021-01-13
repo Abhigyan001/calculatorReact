@@ -1,18 +1,31 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './styles.module.css';
 
-const Button = ({ name }) => (
-  <button type="button" id={name} className="button1">
+const Button = ({
+  name, wide, color, clickHandler,
+}) => (
+  <button
+    type="button"
+    className={`${styles.button}
+                  ${color ? null : styles.button_gray}
+                  ${wide ? styles.button_double : null}`}
+    onClick={() => clickHandler(name)}
+  >
     {name}
   </button>
 );
 
 Button.defaultProps = {
-  name: null,
+  color: false,
+  wide: false,
 };
 
 Button.propTypes = {
-  name: PropTypes.string,
+  name: PropTypes.string.isRequired,
+  clickHandler: PropTypes.func.isRequired,
+  color: PropTypes.bool,
+  wide: PropTypes.bool,
 };
 
 export default Button;

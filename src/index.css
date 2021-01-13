@@ -1,5 +1,10 @@
-body {
+html {
+  height: 100%;
+  width: 100%;
   margin: 0;
+}
+
+body {
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -14,8 +19,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./img/background.jpg");
-  background-size: cover;
+  background-color: #4158d0;
+  background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
 }
 
 code {
@@ -26,27 +31,4 @@ code {
     Consolas,
     'Courier New',
     monospace;
-}
-
-.result {
-  text-align: right;
-  background-color: white;
-  width: 20%;
-}
-
-#display {
-  margin: 10% 40%;
-  width: 100%;
-  margin-bottom: 0%;
-}
-
-#button-panel {
-  margin: -1% 40%;
-  width: 100%;
-}
-
-.button1 {
-  width: 5%;
-  height: auto;
-  background-color: rgba(241, 245, 7, 0.959);
 }
