@@ -41,7 +41,7 @@ class App extends Component {
     if (validButton) {
       this.handleClick(buttonName);
     }
-  }; 
+  };
 
   render() {
     const { total, next, operation } = this.state;

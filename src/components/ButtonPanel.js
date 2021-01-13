@@ -13,7 +13,10 @@ const ButtonPanel = ({ buttons, clickHandler }) => {
             const wide = name === '0' ? true : undefined;
             const color = buttonColors.includes(name) ? true : undefined;
             return (
-              <Button name={name} wide={wide} color={color}
+              <Button
+                name={name}
+                wide={wide}
+                color={color}
                 clickHandler={buttonName => clickHandler(buttonName)}
                 key={name}
               />

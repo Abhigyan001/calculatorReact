@@ -2,12 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './styles.module.css';
 
-const Button = ({ name, wide, color, clickHandler,}) => (
-  <button type="button" 
-  className={`${styles.button}
+const Button = ({
+  name, wide, color, clickHandler,
+}) => (
+  <button
+    type="button"
+    className={`${styles.button}
                   ${color ? null : styles.button_gray}
                   ${wide ? styles.button_double : null}`}
-  onClick={() => clickHandler(name)}>
+    onClick={() => clickHandler(name)}
+  >
     {name}
   </button>
 );

@@ -2,16 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './styles.module.css';
 
-const Display = ({ total, next, operation }) => {
-  return (
-    <div className={styles.display}>
-      <p className="result">{next || total}</p>
-      <span className={styles.displaySubtitle}>
-        {next && (total || null)} {operation || null}
-      </span>
-    </div>
-  );
-};
+const Display = ({ total, next, operation }) => (
+  <div className={styles.display}>
+    <p>{next || total}</p>
+    <span className={styles.displaySpan}>
+      {next && (total || null)}
+      {' '}
+      {operation || null}
+    </span>
+  </div>
+);
 
 Display.defaultProps = {
   total: '0',

@@ -55,7 +55,7 @@ const calculate = (data, buttonName) => {
     resultData.total = undefined;
     resultData.next = undefined;
     resultData.operation = undefined;
-  } 
+  }
 
   if (buttonName === '.') {
     if (!total && !next) {
