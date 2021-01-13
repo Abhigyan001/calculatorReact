@@ -4,7 +4,13 @@
 
 In this project, a calculator is built using the React.js library.
 
-## This web app is live, you can check it here: [Live demo](https://reactcalculatormicroverse.herokuapp.com/)
+## Landing page
+
+![screenshot](./src/img/ss1.PNG)
+
+## This web app is live, you can check it here: 
+
+## [Live demo](https://reactcalculatormicroverse.herokuapp.com/)
 
 
 ## Built With
