@@ -79,6 +79,18 @@
   outline: none;
 }
 
+.quote {
+  margin: 20% auto;
+  width: 55%; 
+  font-size: 25px;
+  font-weight: 600;
+  border: 2px solid rgb(231, 115, 246);
+  padding: 3%;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 5px 10px rgba(230, 147, 241, 0.698);
+}
+
 @media (max-width: 768px) {
   .app,
   .display,
