@@ -6,6 +6,7 @@ import calculate from '../logic/calculate';
 import buttons from '../buttons/buttons';
 import styles from './styles.module.css';
 
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -45,11 +46,11 @@ class App extends Component {
 
   render() {
     const { total, next, operation } = this.state;
-    return (
+    return (      
       <div className={styles.app}>
         <Display total={total} next={next} operation={operation} />
         <ButtonPanel data={this.state} buttons={buttons} clickHandler={this.handleClick} />
-      </div>
+      </div>      
     );
   }
 }
