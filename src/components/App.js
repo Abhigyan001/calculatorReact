@@ -46,10 +46,13 @@ class App extends Component {
 
   render() {
     const { total, next, operation } = this.state;
-    return (      
+    return (
+      <div className={styles.calculator}>
+      <h1 className={styles.math}>Let’s do some math!</h1>      
       <div className={styles.app}>
         <Display total={total} next={next} operation={operation} />
         <ButtonPanel data={this.state} buttons={buttons} clickHandler={this.handleClick} />
+      </div>
       </div>      
     );
   }

@@ -106,6 +106,15 @@
   font-size: 20px;
 }
 
+.calculator {
+  display: flex;
+}
+
+.math {
+  margin:12% 5%;
+  font-size:35px;
+}
+
 @media (max-width: 768px) {
   .app,
   .display,
@@ -115,6 +124,14 @@
 
   .app {
     margin-top: 30%;
+  }
+
+  .calculator {
+    display: block;
+  }
+
+  .math {
+    margin:10% 4% -13% 30%;
   }
 }
 
