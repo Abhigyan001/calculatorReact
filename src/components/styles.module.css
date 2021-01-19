@@ -115,6 +115,40 @@
   font-size:35px;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;  
+}
+
+.link, .link1 {
+  text-decoration: none;
+  font-size: 28px;
+  color: white;  
+}
+
+.link {
+  border-right: 3px solid white;
+  padding: 2%;   
+}
+
+.link:nth-child(3) {
+  border-right: none;
+}
+
+.link1 {
+  font-size: 48px;  
+}
+
+.left, .right {
+  margin: 1%;
+}
+
+.right {
+  width: 30%;
+  margin-top: 2%;  
+}
+
+
 @media (max-width: 768px) {
   .app,
   .display,
@@ -132,6 +166,11 @@
 
   .math {
     margin:10% 4% -13% 30%;
+  }
+
+  .right {
+    width: 45%;
+    margin-top: 3%; 
   }
 }
 
