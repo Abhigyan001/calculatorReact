@@ -81,7 +81,7 @@
 
 .quote {
   margin: 20% auto;
-  width: 55%; 
+  width: 55%;
   font-size: 25px;
   font-weight: 600;
   border: 2px solid rgb(231, 115, 246);
@@ -111,24 +111,25 @@
 }
 
 .math {
-  margin:12% 5%;
-  font-size:35px;
+  margin: 12% 5%;
+  font-size: 35px;
 }
 
 .navbar {
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 
-.link, .link1 {
+.link,
+.link1 {
   text-decoration: none;
   font-size: 28px;
-  color: white;  
+  color: white;
 }
 
 .link {
   border-right: 3px solid white;
-  padding: 2%;   
+  padding: 2%;
 }
 
 .link:nth-child(3) {
@@ -136,18 +137,18 @@
 }
 
 .link1 {
-  font-size: 48px;  
+  font-size: 48px;
 }
 
-.left, .right {
+.left,
+.right {
   margin: 1%;
 }
 
 .right {
   width: 30%;
-  margin-top: 2%;  
+  margin-top: 2%;
 }
-
 
 @media (max-width: 768px) {
   .app,
@@ -165,12 +166,12 @@
   }
 
   .math {
-    margin:10% 4% -13% 30%;
+    margin: 10% 4% -13% 30%;
   }
 
   .right {
     width: 45%;
-    margin-top: 3%; 
+    margin-top: 3%;
   }
 }
 

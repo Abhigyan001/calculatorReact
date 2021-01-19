@@ -26,4 +26,3 @@ describe('if user presses AC key, calculate', () => {
     expect(Operate(35, 7, '÷')).not.toEqual(0.2);
   });
 });
-

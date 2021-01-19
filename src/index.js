@@ -2,8 +2,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import NewApp from './components/NewApp';
 import { BrowserRouter } from 'react-router-dom';
+import NewApp from './components/NewApp';
 
 ReactDOM.render(
   <BrowserRouter>

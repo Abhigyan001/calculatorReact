@@ -52,7 +52,6 @@ describe('if user presses % key, calculate', () => {
 });
 
 describe('before first numerical input', () => {
-  
   test("if user presses + key, calculate doesn't leave total at null", () => {
     expect(Calculate({
       total: null, next: null, operation: null,
@@ -60,7 +59,7 @@ describe('before first numerical input', () => {
       total: null, next: null, operation: '+',
     });
   });
- 
+
   test("if user presses - key, calculate doesn't leave total at null", () => {
     expect(Calculate({
       total: null, next: null, operation: null,
@@ -68,7 +67,7 @@ describe('before first numerical input', () => {
       total: null, next: null, operation: '-',
     });
   });
-  
+
   test("if user presses X key, calculate doesn't leave total at null", () => {
     expect(Calculate({
       total: null, next: null, operation: null,
@@ -76,7 +75,7 @@ describe('before first numerical input', () => {
       total: null, next: null, operation: 'X',
     });
   });
-  
+
   test("if user presses / key, calculate doesn't leave total at null", () => {
     expect(Calculate({
       total: null, next: null, operation: null,
@@ -223,4 +222,3 @@ describe('if user presses . key before the operator', () => {
     });
   });
 });
-
