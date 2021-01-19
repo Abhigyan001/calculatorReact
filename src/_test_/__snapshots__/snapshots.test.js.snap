@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App correctly 1`] = `
+<div
+  className="calculator"
+>
+  <h1
+    className="math"
+  >
+    Let’s do some math!
+  </h1>
+  <div
+    className="app"
+  >
+    <div
+      className="display"
+    >
+      <p>
+        0
+      </p>
+      <span
+        className="displaySpan"
+      >
+         
+      </span>
+    </div>
+    <div
+      className="button_panel"
+    >
+      <div
+        className="button_panel_row"
+      >
+        <button
+          className="button
+                  button_gray
+                  null"
+          onClick={[Function]}
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          className="button
+                  button_gray
+                  null"
+          onClick={[Function]}
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          className="button
+                  button_gray
+                  null"
+          onClick={[Function]}
+          type="button"
+        >
+          %
+        </button>
+        <button
+          className="button
+                  null
+                  null"
+          onClick={[Function]}
+          type="button"
+        >
+          ÷
+        </button>
+      </div>
+      <div
+        className="button_panel_row"
+      >
+        <button
+          className="button
+                  button_gray
+                  null"
+          onClick={[Function]}
+          type="button"
+        >
+          7
+        </button>
+        <button
+          className="button
+                  button_gray
+                  null"
+          onClick={[Function]}
+          type="button"
+        >
+          8
+        </button>
+        <button
+          className="button
+                  button_gray
+                  null"
+          onClick={[Function]}
+          type="button"
+        >
+          9
+        </button>
+        <button
+          className="button
+                  null
+                  null"
+          onClick={[Function]}
+          type="button"
+        >
+          X
+        </button>
+      </div>
+      <div
+        className="button_panel_row"
+      >
+        <button
+          className="button
+                  button_gray
+                  null"
+          onClick={[Function]}
+          type="button"
+        >
+          4
+        </button>
+        <button
+          className="button
+                  button_gray
+                  null"
+          onClick={[Function]}
+          type="button"
+        >
+          5
+        </button>
+        <button
+          className="button
+                  button_gray
+                  null"
+          onClick={[Function]}
+          type="button"
+        >
+          6
+        </button>
+        <button
+          className="button
+                  null
+                  null"
+          onClick={[Function]}
+          type="button"
+        >
+          -
+        </button>
+      </div>
+      <div
+        className="button_panel_row"
+      >
+        <button
+          className="button
+                  button_gray
+                  null"
+          onClick={[Function]}
+          type="button"
+        >
+          1
+        </button>
+        <button
+          className="button
+                  button_gray
+                  null"
+          onClick={[Function]}
+          type="button"
+        >
+          2
+        </button>
+        <button
+          className="button
+                  button_gray
+                  null"
+          onClick={[Function]}
+          type="button"
+        >
+          3
+        </button>
+        <button
+          className="button
+                  null
+                  null"
+          onClick={[Function]}
+          type="button"
+        >
+          +
+        </button>
+      </div>
+      <div
+        className="button_panel_row"
+      >
+        <button
+          className="button
+                  button_gray
+                  button_double"
+          onClick={[Function]}
+          type="button"
+        >
+          0
+        </button>
+        <button
+          className="button
+                  button_gray
+                  null"
+          onClick={[Function]}
+          type="button"
+        >
+          .
+        </button>
+        <button
+          className="button
+                  null
+                  null"
+          onClick={[Function]}
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders Display correctly 1`] = `
+<div
+  className="display"
+>
+  <p>
+    0
+  </p>
+  <span
+    className="displaySpan"
+  >
+     
+  </span>
+</div>
+`;
+
+exports[`renders Home correctly 1`] = `
+<div
+  className="home"
+>
+  <h1>
+    Welcome to our page!
+  </h1>
+  <p
+    className="para"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum.
+  </p>
+  <p
+    className="para"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum.
+  </p>
+</div>
+`;
+
+exports[`renders Quote correctly 1`] = `
+<div
+  className="quote"
+>
+  Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding. – William Paul Thurston
+</div>
+`;

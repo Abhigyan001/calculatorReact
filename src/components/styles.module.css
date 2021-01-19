@@ -79,6 +79,77 @@
   outline: none;
 }
 
+.quote {
+  margin: 20% auto;
+  width: 55%;
+  font-size: 25px;
+  font-weight: 600;
+  border: 2px solid rgb(231, 115, 246);
+  padding: 3%;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 5px 10px rgba(230, 147, 241, 0.698);
+}
+
+.home {
+  width: 80%;
+  margin: 10% auto;
+  text-align: justify;
+  border: 2px solid rgb(231, 115, 246);
+  box-shadow: 5px 10px rgba(230, 147, 241, 0.698);
+  padding: 3%;
+  border-radius: 30px;
+}
+
+.para {
+  margin-top: 3%;
+  font-size: 20px;
+}
+
+.calculator {
+  display: flex;
+}
+
+.math {
+  margin: 12% 5%;
+  font-size: 35px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link,
+.link1 {
+  text-decoration: none;
+  font-size: 28px;
+  color: white;
+}
+
+.link {
+  border-right: 3px solid white;
+  padding: 2%;
+}
+
+.link:nth-child(3) {
+  border-right: none;
+}
+
+.link1 {
+  font-size: 48px;
+}
+
+.left,
+.right {
+  margin: 1%;
+}
+
+.right {
+  width: 30%;
+  margin-top: 2%;
+}
+
 @media (max-width: 768px) {
   .app,
   .display,
@@ -88,6 +159,19 @@
 
   .app {
     margin-top: 30%;
+  }
+
+  .calculator {
+    display: block;
+  }
+
+  .math {
+    margin: 10% 4% -13% 30%;
+  }
+
+  .right {
+    width: 45%;
+    margin-top: 3%;
   }
 }
 
