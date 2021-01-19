@@ -15,14 +15,14 @@ describe('if user presses +/- key, calculate', () => {
     expect(Calculate({
       total: 9, next: null, operation: null,
     }, '+/-')).toEqual({
-      total: -9, next: null, operation: null,
+      total: '-9', next: null, operation: null,
     });
   });
   test('multiplies the last digit put in by -1', () => {
     expect(Calculate({
-      total: 9, next: 6, operation: '+',
+      total: '9', next: '6', operation: '+',
     }, '+/-')).toEqual({
-      total: 9, next: -6, operation: '+',
+      total: '9', next: '-6', operation: '+',
     });
   });
   test("doesn't multiply both digits by -1", () => {
@@ -37,16 +37,16 @@ describe('if user presses +/- key, calculate', () => {
 describe('if user presses % key, calculate', () => {
   test('divides the last digit put in by 100', () => {
     expect(Calculate({
-      total: 9, next: null, operation: null,
+      total: '9', next: null, operation: null,
     }, '%')).toEqual({
-      total: 0.09, next: null, operation: null,
+      total: '0.09', next: null, operation: null,
     });
   });
   test('divides the last digit put in by 100', () => {
     expect(Calculate({
-      total: 9, next: 6, operation: '+',
+      total: '9', next: '6', operation: '+',
     }, '%')).toEqual({
-      total: 9, next: 0.06, operation: '+',
+      total: '9', next: '0.06', operation: '+',
     });
   });
 });
