@@ -46,11 +46,11 @@ Most important, enjoy the app!<br>
 👤 **Abhigyan Mahanta**
 ​
 
-- Github: [@githubhandle](https://github.com/Abhigyan001)
+- Github: [Abhigyan](https://github.com/Abhigyan001)
    
-- Linkedin: [Linkedin Profile](https://www.linkedin.com/in/abhigyan001/)
+- Linkedin: [Abhigyan Mahanta](https://www.linkedin.com/in/abhigyan001/)
 
-- Twitter: [@Twitter](https://twitter.com/abhigyan_001)
+- Twitter: [@abhigyan_001](https://twitter.com/abhigyan_001)
 
 ## 🤝 Contributing
 
